@@ -10,11 +10,17 @@ $ docker exec -it namenode bash
 
 3. Listar todos os diretórios de /input.
 
-
+$ ls
 
 4. Entrar na pasta /input e criar uma pasta "dados".
 
+$ mkdir /dados
+
 5. Criar um arquivo "dados_cliente.csv" e adicionar as seguintes linhas abaixo:
+
+$ cd dados
+$ touch dados_clientes.csv
+$ vi dados_clientes.csv
 
 id; nome; idade
 1; Maria; 35
@@ -22,6 +28,8 @@ id; nome; idade
 3; Paulo; 15
 
 6. Apresentar em tela o arquivo.
+
+$ cat /dados/ dados_clientes.csv
 
 7. Renomear o arquivo para "dados_alunos.csv".
 
