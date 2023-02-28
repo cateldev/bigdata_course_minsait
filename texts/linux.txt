@@ -1,0 +1,45 @@
+Exercicios de Linux
+
+1. Vamos iniciar o cluster de Big Data.
+
+$ docker-compose up -d
+
+2. Vamos acessar o container do namenode.
+
+$ docker exec -it namenode bash
+
+3. Listar todos os diretórios de /input.
+
+
+
+4. Entrar na pasta /input e criar uma pasta "dados".
+
+5. Criar um arquivo "dados_cliente.csv" e adicionar as seguintes linhas abaixo:
+
+id; nome; idade
+1; Maria; 35
+2; Joao; 23
+3; Paulo; 15
+
+6. Apresentar em tela o arquivo.
+
+7. Renomear o arquivo para "dados_alunos.csv".
+
+8. Criar um shellscript para criar a seguinte estrutura de pastas:
+/input/dados/dia01
+/input/dados/dia02
+/input/dados/dia03
+
+9. mover o arquivo dados_alunos.csv para a pasta /input/dados/dia01
+
+10. adicionar mais um registro ao arquivo dados_alunos.csv
+
+4; Pedro; 27
+
+11. visualizar os 4 registros em tela do arquivo dados_alunos.csv
+
+12. renomear a pasta /input/dados/dia03 para /input/dados/dia_prova
+
+13 deletar a pasta /Input/dados
+
+14. desligar o cluster
