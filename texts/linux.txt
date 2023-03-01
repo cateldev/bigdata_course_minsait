@@ -33,12 +33,20 @@ $ cat /dados/ dados_clientes.csv
 
 7. Renomear o arquivo para "dados_alunos.csv".
 
+$ mv input/dados/dados_clientes.csv /input/dados/dados_alunos.csv
+
 8. Criar um shellscript para criar a seguinte estrutura de pastas:
 /input/dados/dia01
 /input/dados/dia02
 /input/dados/dia03
 
+$ mkdir dia01
+$ mkdir dia02
+$ mkdir dia03
+
 9. mover o arquivo dados_alunos.csv para a pasta /input/dados/dia01
+
+
 
 10. adicionar mais um registro ao arquivo dados_alunos.csv
 
