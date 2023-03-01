@@ -1,0 +1,38 @@
+## Linux Commands ##
+
+- In case that the cluster is off, type:
+
+$ docker-compose up -d
+
+- To acess Namenode in docker, type:
+
+$ docker exec -it namenode bash
+
+- How to list the directories, type:
+
+$ ls 
+( e.g.: $ ls /main ) -> output should be a list of folders or archives inside data.
+
+- How to navigate through directories, type:
+
+$ cd 
+( e.g.: $ cd /data) -> You move to data folder.
+
+- To go back through folders, type:
+
+$ cd ..
+( e.g.: $ cd ..) -> In this case, you go back one folder.
+
+- How to create new directories, type:
+
+$ mkdir
+( e.g.: $ mkdir info) -> You create a info folder.
+
+- To create empty files in Linux, type:
+
+$ touch
+( e.g.: $ touch info_data.txt) -> Create a .txt file.
+
+- To rename or move files or folders, type:
+
+$ mv
