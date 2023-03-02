@@ -46,16 +46,26 @@ $ mkdir dia03
 
 9. mover o arquivo dados_alunos.csv para a pasta /input/dados/dia01
 
-
+mv dados_alunos.csv dia01
 
 10. adicionar mais um registro ao arquivo dados_alunos.csv
+
+$ vi dados_alunos.csv
 
 4; Pedro; 27
 
 11. visualizar os 4 registros em tela do arquivo dados_alunos.csv
 
+$ cat /dados/ dados_alunos.csv
+
 12. renomear a pasta /input/dados/dia03 para /input/dados/dia_prova
+
+$ mv input/dados/dia03 /input/dados/dia_prova
 
 13 deletar a pasta /Input/dados
 
+$ rmdir /Input/dados
+
 14. desligar o cluster
+
+$ docker-compose stop
