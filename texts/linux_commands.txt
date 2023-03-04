@@ -36,3 +36,31 @@ $ touch
 - To rename or move files or folders, type:
 
 $ mv
+- (e.g.: $ mv /info/info_data.txt info_db.txt) -> Renames info_data.txt to info_db.txt
+- (e.g.: $ mv info_data.txt /info/database ) -> Moves info_data.txt archive to database folder.
+
+- To delete folders or files, type:
+
+$ rm
+(e.g.: rm info_data.txt) -> Delete this file.
+
+- rm has some parameters that we can include to change what to delete:
+
+$ rm -r 
+(e.g.: rm -r /info/database) -> Removes folders and everything inside of it.
+
+$ rm -f
+(e.g.: rm -f /info/database) -> Forces the system to delete the folder/archive.
+
+- To edit a file, type:
+
+$ vi
+(e.g.: vi info_data.txt) -> Opens a window to edit that file contents.
+-> Press insert to start editing;
+-> ESC to stop editing;
+-> Press W+Q+! to save and exit the file editor.
+
+- To visualize the file on screen, type:
+
+$ cat
+(e.g.: vi info_data.txt)
