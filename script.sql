@@ -67,7 +67,7 @@ COMMENT 'Tabela de Item'
 ROW FORMAT DELIMITED
 FIELDS TERMINATED BY '|'
 STORED AS TEXTFILE
-location '/datalake/raw/item/'
+location '/datalake/raw/item_pedido/'
 TBLPROPERTIES ("skip.header.line.count"="1");
 
 CREATE TABLE IF NOT EXISTS desafio.parceiro (
@@ -117,3 +117,10 @@ FIELDS TERMINATED BY '|'
 STORED AS TEXTFILE
 location '/datalake/raw/subcategoria/'
 TBLPROPERTIES ("skip.header.line.count"="1");
+
+
+
+conection string 
+beeline -u jdbc:hive2://localhost:10000
+
+select * from desafio.item limit 10;
