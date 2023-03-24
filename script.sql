@@ -39,7 +39,7 @@ TBLPROPERTIES ("skip.header.line.count"="1");
 
 CREATE TABLE IF NOT EXISTS desafio.estado (
     id_estado string,
-    ds_estado string,
+    ds_estado string
 )
 COMMENT 'Tabela de Estado'
 ROW FORMAT DELIMITED
@@ -65,7 +65,7 @@ TBLPROPERTIES ("skip.header.line.count"="1");
 CREATE TABLE IF NOT EXISTS desafio.item (
     id_pedido string,
     id_produto string,
-    quantidade string,
+    quantidade int,
     vr_unitario string
 )
 COMMENT 'Tabela de Item'
@@ -78,7 +78,7 @@ TBLPROPERTIES ("skip.header.line.count"="1");
 
 CREATE TABLE IF NOT EXISTS desafio.parceiro (
     id_parceiro string,
-    nm_parceiro string,
+    nm_parceiro string
 )
 COMMENT 'Tabela de Parceiro'
 ROW FORMAT DELIMITED
@@ -135,3 +135,5 @@ conection string
 beeline -u jdbc:hive2://localhost:10000
 
 select * from desafio.item limit 10;
+
+drop table pedido;
