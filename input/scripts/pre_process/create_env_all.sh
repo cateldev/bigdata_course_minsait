@@ -2,7 +2,11 @@
 
 # Criação das pastas
 
-DADOS=("cidade" "estado" "filial" "parceiro" "cliente" "subcategoria" "categoria" "item_pedido" "produto")
+# Permissão adm: chmod +x create_env_all.sh
+
+# Executando o arquivo: ./create_env_all.sh
+
+DADOS=("clientes" "divisao" "endereco" "regiao" "vendas")
 
 for i in "${DADOS[@]}"
 do
