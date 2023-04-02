@@ -6,6 +6,8 @@
 
 # Executando o arquivo: ./create_env_all.sh
 
+## Caso a exec falhar, use o comando:  sed -i -e 's/\r$//' create_env_all.sh
+
 DADOS=("clientes" "divisao" "endereco" "regiao" "vendas")
 
 for i in "${DADOS[@]}"
