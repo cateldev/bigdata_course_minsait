@@ -17,7 +17,7 @@ Iniciando o cluster de docker:
 
 docker-compose up -d
 
-Acessando os containers namenode & hive
+Acessando os containers namenode & hive:
 
 docker exec -it namenode bash
 docker exec -it hive-server bash
@@ -26,7 +26,7 @@ Criando pastas para armazenar os arquivos csvs:
 
 mkdir input/raw/<folder>
 
-Criando as pastas datalake e raw no HDFS 
+Criando as pastas datalake e raw no HDFS:
 
 hdfs dfs -mkdir /datalake/raw/<folder>/
 
