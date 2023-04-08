@@ -1,14 +1,14 @@
 CREATE EXTERNAL TABLE IF NOT EXISTS minsait.clientes ( 
-        address_number integer,
+        address_number string,
         business_family string,
         business_unit integer,
         customer string,
-        customer_key integer,
+        customer_key string,
         customer_type string,
-        division integer,
+        division string,
         business_line string,
         phone string,
-        region_code integer,
+        region_code string,
         regional_sales string,
         search_type string
     )

@@ -1,5 +1,5 @@
 CREATE EXTERNAL TABLE IF NOT EXISTS minsait.divisao ( 
-        division integer,
+        division string,
         name_division string
     )
 COMMENT 'Tabela de Divisao'

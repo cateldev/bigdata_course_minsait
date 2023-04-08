@@ -1,5 +1,5 @@
 CREATE EXTERNAL TABLE IF NOT EXISTS minsait.endereco ( 
-        address_number integer,
+        address_number string,
         city string,
         country string,
         customer_address string,
