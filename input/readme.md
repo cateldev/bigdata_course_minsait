@@ -39,6 +39,7 @@ Etapa 5 - Exportar os dados para a pasta desafio_curso/gold
 Etapa 6 - Criar e editar o PowerBI com os dados que você trabalhou.
 
 No PowerBI criar gráficos de vendas.
+
 Etapa 7 - Criar uma documentação com os testes e etapas do projeto.
 
 REGRAS
@@ -55,3 +56,4 @@ nome do email: DESAFIO MINSAIT BI/BIGDATA (Aluno)
 dentro deste email o zip e o link para o github onde estará o projeto.
 prazo: ate <b>08/04/2023<b>
 nesse caso não poderei aceitar atrasos na entrega.
+
