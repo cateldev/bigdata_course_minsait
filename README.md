@@ -19,7 +19,7 @@ docker-compose up -d
 
 Acessando os containers namenode & hive:
 
-docker exec -it namenode bash
+docker exec -it namenode bash</br>
 docker exec -it hive-server bash
 
 Criando pastas para armazenar os arquivos csvs:
